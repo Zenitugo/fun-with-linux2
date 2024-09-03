@@ -90,4 +90,28 @@ groupadd database
 1. **Switch to user4**
 ```
 su - user4
+
+```
+
+2. Create directory
+```
+mkdir -p /dir6/dir4
+
+```
+
+3. Create file
+```
+touch /f3
+
+```
+
+4. Move file
+```
+mv /dir1/f1 /dir2/dir1/dir2/
+
+```
+5. Rename file
+```
+mv /f2 /f4
+
 ```
