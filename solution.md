@@ -36,4 +36,25 @@ usermod -g devops user3
 usermod -a -G aws user1
 
 ```
-5. 
+5. Create File and Directory Structure:
+
+```
+mkdir -p home dir1 dir2/dir1/dir2/dir10  dir3/dir11 dir4/dir12 dir5/dir13 dir6 dir7/dir10 dir8/dir9 opt/dir14/dir10
+
+touch dir1/f1 dir2/dir1/dir2/f3 dir4/dir12/f5&&f4  dir7/f3  f1 f2 opt/dir14/f3
+```
+
+6. Change Group Ownership:
+```
+chgrp devops /dir1 /dir7/dir10 /dir7/dir10/f2
+
+```
+
+7. Change ownership 
+```
+chown user1 /dir1 /dir7/dir10 /dir7/dir10/f2
+
+```
+
+
+# Task 2: User and Group Management by user1
