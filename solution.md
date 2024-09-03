@@ -58,3 +58,30 @@ chown user1 /dir1 /dir7/dir10 /dir7/dir10/f2
 
 
 # Task 2: User and Group Management by user1
+1. Switch to `user1`:
+
+```
+su - user1
+
+```
+
+2. Create users
+```
+
+sudo useradd user4
+sudo useradd user5
+
+```
+Set passwords
+```
+passwd user4
+passwd user5
+
+```
+3. Create groups
+```
+groupadd app
+groupadd database
+
+```
+
