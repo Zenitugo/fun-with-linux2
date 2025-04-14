@@ -9,7 +9,7 @@ useradd user3
 ```
 **Set password for users**
 ```
-passwd user1
+passwd user1 - changed password to beauty
 passwd user2
 passwd user3
 ```
@@ -115,3 +115,7 @@ mv /dir1/f1 /dir2/dir1/dir2/
 mv /f2 /f4
 
 ```
+
+
+# Task 4
+
